@@ -1,6 +1,6 @@
 package com.seeroo.rentalservice.controller;
 
-
+import com.seeroo.rentalservice.dto.UserDetailsDTO;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

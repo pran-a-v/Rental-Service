@@ -1,4 +1,4 @@
-package com.seeroo.rentalservice.controller;
+package com.seeroo.rentalservice.dto;
 
 public class UserDetailsDTO {
     private String name;
