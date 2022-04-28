@@ -37,4 +37,10 @@ public class UserDetailsDTO {
     public void setLocation(String location) {
         this.location = location;
     }
+
+    public UserDetailsDTO(String name, String company, String location){
+        this.name = name;
+        this.company = company;
+        this.location = location;
+    }
 }
