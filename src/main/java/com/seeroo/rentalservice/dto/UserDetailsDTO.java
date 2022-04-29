@@ -4,6 +4,15 @@ public class UserDetailsDTO {
     private String name;
     private String company;
     private String location;
+    private String state;
+
+    public String getState() {
+        return state;
+    }
+
+    public void setState(String state) {
+        this.state = state;
+    }
 
     public String getName() {
         return name;
@@ -26,6 +35,12 @@ public class UserDetailsDTO {
     }
 
     public void setLocation(String location) {
+        this.location = location;
+    }
+
+    public UserDetailsDTO(String name, String company, String location){
+        this.name = name;
+        this.company = company;
         this.location = location;
     }
 }
